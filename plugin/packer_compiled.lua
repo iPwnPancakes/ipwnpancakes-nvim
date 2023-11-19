@@ -139,6 +139,16 @@ _G.packer_plugins = {
     path = "/home/ipwnpancakes/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/home/ipwnpancakes/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
+  },
+  ["vim-blade"] = {
+    loaded = true,
+    path = "/home/ipwnpancakes/.local/share/nvim/site/pack/packer/start/vim-blade",
+    url = "https://github.com/jwalton512/vim-blade"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/ipwnpancakes/.local/share/nvim/site/pack/packer/start/vim-fugitive",
