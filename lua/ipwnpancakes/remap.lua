@@ -1,6 +1,6 @@
 vim.g.mapleader = " "
 
-vim.keymap.set("n", "<leader>pv", vim.cmd.NERDTree)
+vim.keymap.set("n", "<leader>pv", function() vim.api.nvim_command('NERDTreeFocus') end)
 
 -- Maps <leader>y to copy to system clipboard --
 vim.keymap.set("n", "<leader>y", "\"+y")
