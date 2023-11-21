@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/ipwnpancakes/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  nerdtree = {
+    loaded = true,
+    path = "/home/ipwnpancakes/.local/share/nvim/site/pack/packer/start/nerdtree",
+    url = "https://github.com/preservim/nerdtree"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/ipwnpancakes/.local/share/nvim/site/pack/packer/start/nvim-cmp",
